@@ -1,0 +1,57 @@
+.card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.card img {
+    width: 53%;
+    margin-left: 70px;
+    height: 20vh;
+}
+
+.text {
+    display: inline;
+    width: 100%;
+
+}
+
+.read-or-hide {
+    color: rgba(255, 255, 255, 0.563);
+    cursor: pointer;
+}
+
+.card-body {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #232323;
+
+}
+
+.card-title {
+    color: aliceblue;
+}
+
+.text {
+    color: aliceblue;
+}
+
+.btn {
+    margin: bottom 10px;
+}
+
+.card-body span {
+    text-transform: lowercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: #131313; */
+    margin-top: 10px;
+}
